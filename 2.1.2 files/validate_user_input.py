@@ -25,3 +25,5 @@ plaintext = input("Enter a message to encrypt: ")
 
 encrypted_msg = rsa.encrypt(key, mod_value, plaintext)
 print("Encrypted Message:", encrypted_msg)
+
+# .isalpha() checks if something uses alphanumeric charcters (a-z, A-Z)
